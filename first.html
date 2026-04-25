@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Student Management System</h1>
+    <!--input and type-->
+    <div class="form">
+        <input type="text" id = "name" placeholder="Enter name">
+        <input type="number" id = "score" placeholder="Enter score">
+        <button onclick="addStudent()">Add</button>
+    </div>
+
+    <p id="message"></p>
+
+    <div class="search">
+        <input type="text" id="search" placeholder="Search by name">
+        <button onclick="search_student()">Search</button>
+        <button onclick="display_student()">Show All</button>
+    </div>
+
+    <div id="list"></div>
+
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
